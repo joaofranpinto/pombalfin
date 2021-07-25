@@ -103,3 +103,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Define as variáveis do WordPress e ficheiros a incluir. */
 require_once( ABSPATH . 'wp-settings.php' );
+
+define( 'WP_HOME', 'https://localhost/Pombalfin' );
+define( 'WP_SITEURL', 'https://localhost/Pombalfin' );
+

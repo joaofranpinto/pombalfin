@@ -201,5 +201,3 @@ function busicare_register_required_plugins() {
 }
 add_action( 'tgmpa_register', 'busicare_register_required_plugins' );
 
-update_option( 'siteurl', 'https://localhost/pombalfin' );
-update_option( 'home', 'https://localhost/pombalfin' );
