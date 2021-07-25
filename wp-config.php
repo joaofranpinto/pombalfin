@@ -25,15 +25,15 @@ define( 'DB_NAME', 'pombalfi_wordpress' );
 
 
 /** O nome do utilizador de MySQL */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'pombalfi_admin' );
 define('FS_METHOD', 'direct');
 
 /** A password do utilizador de MySQL  */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'joaopinto' );
 
 
 /** O nome do serviddor de  MySQL  */
-define( 'DB_HOST', '127.0.0.1' );
+define( 'DB_HOST', 'localhost' );
 
 
 /** O "Database Charset" a usar na criação das tabelas. */
@@ -103,7 +103,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Define as variáveis do WordPress e ficheiros a incluir. */
 require_once( ABSPATH . 'wp-settings.php' );
-
-define( 'WP_HOME', 'https://localhost/Pombalfin' );
-define( 'WP_SITEURL', 'https://localhost/Pombalfin' );
-
